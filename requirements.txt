@@ -1,6 +1,5 @@
 kokoro>=0.9.4
 num2words
 sounddevice
-soundfile
 pillow
 opencv-python
