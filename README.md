@@ -61,11 +61,11 @@ NumberCounter-YTStream is a Python-based tool that generates real-time number co
    ```
 
    This will start the number counter, displaying the current number and announcing it aloud.
-
+4. Install vb-audio from https://vb-audio.com/Cable/ <br>
+For Speaker output choose: Speakers vb virtual audio cable
 ---
 
 ## 🎥 OBS Studio Setup
-
 To stream your counter to YouTube:
 
 1. Open **OBS Studio**.
@@ -73,7 +73,7 @@ To stream your counter to YouTube:
 
    * Choose **Window Capture** → Select `[python.exe]` window showing the counter image.
    * **⚠️ Warning:** Do **not minimize** the Python window, otherwise OBS will not capture it.
-   * Add **Audio Input Capture** → Choose `Stereo Mix (Realtek(R) Audio)` to capture system audio and Set volume to -35.
+   * Add **Audio Input Capture** → Choose `Cable Output (vb virtual audio cable)` to capture system audio.
 3. Grab your **YouTube Stream API key** and start the stream.
 4. The OBS scene will now show your live number counter with TTS audio directly on your YouTube Shorts live stream.
 
